@@ -1,0 +1,63 @@
+@font-face {
+    font-family: FarFromHomeComing;
+    src: url(../Assets/Typo-FarFromHomecoming.woff2);
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #B11313;
+}
+
+.entete {
+    margin: 0 8%;
+    padding: 1% 0;
+}
+
+.img-header {
+    margin-left: 4%;
+}
+
+li a {
+    color: white;
+    font-weight: semi-bold;
+}
+
+a:hover {
+    color: white;
+}
+
+footer {
+    background-color: #000000;
+}
+
+.bas-de-page1 {
+    padding-top: 3%;
+    padding-bottom: 2%;
+    margin: 0% 5%;
+}
+
+.bas-de-page1 li {
+    /*margin-right: 2%;*/
+}
+
+.bas-de-page1 .img-footer {
+    margin-right: 1%;
+}
+
+.btn-drop {
+    background-color: #B11313;
+    color: white;
+    border-radius: 20px;
+    padding-right: ;
+}
+
+.icon-reseau-sociaux img {
+    border-radius: 5vh;
+    margin-right: 2vh;
+    padding: 2vh;
+}
