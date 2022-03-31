@@ -47,6 +47,10 @@ header {
     background-color: #B11313;
 }
 
+#header-hero {
+    background-color: #114C92;
+}
+
 .entete {
     margin: 0 8%;
     padding: 1% 0;
@@ -70,22 +74,37 @@ a:hover {
 MISE EN FORME MAIN
 */
 
-main {
-    font-family: ;
-}
+main {}
 
 .part-1 {
-    background-image: url("../Assets/Illustration/img1.png");
+    background-image: url(../Illustration/img1.png);
     background-size: cover;
     height: 129vh;
+}
+
+.part-1-hero {
+    background-image: url(../Illustration/img19.png);
+    background-size: cover;
+    height: 90vh;
+    padding-top: 22%;
+    /*padding-left: 12%;*/
 }
 
 .part-2 {
     background-color: #B11313;
 }
 
-.part-3 {
+.part-3,
+.part-2-hero,
+.part-4-hero,
+.part-5-hero {
     background-color: #114C92;
+}
+
+.part-3-hero {
+    background-image: url(../Illustration/img20.png);
+    background-size: cover;
+    height: 50vh;
 }
 
 .part-4 {
@@ -118,6 +137,15 @@ h2,
 h3,
 p {
     color: white;
+}
+
+p {
+    font-family: ;
+    font-size: 15px;
+}
+
+h1 {
+    font-family: 'FarFromHomecoming';
 }
 
 input {
