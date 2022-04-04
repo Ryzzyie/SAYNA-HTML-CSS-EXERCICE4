@@ -90,12 +90,21 @@ main {}
     /*padding-left: 12%;*/
 }
 
+.part-1-apropos {
+    background-color: #F1C503;
+}
+
 .part-2 {
+    background-color: #B11313;
+}
+
+.part-2-apropos {
     background-color: #B11313;
 }
 
 .part-3,
 .part-2-hero,
+.part-3-apropos,
 .part-4-hero,
 .part-5-hero {
     background-color: #114C92;
@@ -139,11 +148,6 @@ p {
     color: white;
 }
 
-p {
-    font-family: ;
-    font-size: 15px;
-}
-
 h1 {
     font-family: 'FarFromHomecoming';
 }
@@ -155,7 +159,13 @@ input {
     margin-bottom: 2%;
 }
 
-figure {}
+
+/*apropos*/
+
+.toile {
+    padding-left: 12%;
+    padding-top: 15%;
+}
 
 
 /*
